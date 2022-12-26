@@ -73,7 +73,7 @@ int main(int argc, char** argv)
     p1[0][0]=400;p1[1][0]=400,p1[2][0]=1;
     p2[0][0]=500;p2[1][0]=700,p2[2][0]=1;
     p3[0][0]=700;p3[1][0]=400,p3[2][0]=1;
-    int Degree;
+    float Degree;
     cout<<"Enter the Degree of rotetion in Degree format --";cin>>Degree;
     Redian= Degree*(3.14159/180);
     glutInitDisplayMode(GLUT_SINGLE);
