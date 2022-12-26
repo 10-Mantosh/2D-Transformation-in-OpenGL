@@ -75,10 +75,10 @@ void displayMe()
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);    
-    p1[0][0]=40;p1[1][0]=40,p1[2][0]=1;
-    p2[0][0]=40;p2[1][0]=200,p2[2][0]=1;
+    p1[0][0]=100;p1[1][0]=100,p1[2][0]=1;
+    p2[0][0]=100;p2[1][0]=200,p2[2][0]=1;
     p3[0][0]=200;p3[1][0]=200,p3[2][0]=1;
-    p4[0][0]=200;p4[1][0]=40,p4[2][0]=1;
+    p4[0][0]=200;p4[1][0]=100,p4[2][0]=1;
     cout<<"Any positive values can be assigned to the scaling factors sx and sy. Values less than 1 reduce the size of objects; values greater than 1 produce enlargements.Specifying a value of 1 for both sx and sy leaves the size of objects unchanged.When sx and sy are assigned the same value, a uniform scaling is produced,which maintains relative object proportions. Unequal values for sx and sy resultin a differential scaling\nEnter scaling factor Sx and Sy for translating square--\n";cin>>Sx>>Sy;
     glutInitDisplayMode(GLUT_SINGLE);
     glutInitWindowSize(900, 700);
