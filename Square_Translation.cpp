@@ -75,10 +75,10 @@ void displayMe()
 int main(int argc, char** argv)
 {
     glutInit(&argc, argv);    
-    p1[0][0]=40;p1[1][0]=40,p1[2][0]=1;
-    p2[0][0]=40;p2[1][0]=200,p2[2][0]=1;
+    p1[0][0]=100;p1[1][0]=100,p1[2][0]=1;
+    p2[0][0]=100;p2[1][0]=200,p2[2][0]=1;
     p3[0][0]=200;p3[1][0]=200,p3[2][0]=1;
-    p4[0][0]=200;p4[1][0]=40,p4[2][0]=1;
+    p4[0][0]=200;p4[1][0]=100,p4[2][0]=1;
     cout<<"Enter translation factor tx and ty for translating square--";cin>>tx>>ty;
     glutInitDisplayMode(GLUT_SINGLE);
     glutInitWindowSize(400, 300);
